@@ -53,7 +53,7 @@ function foo() {
 const a = 42;
 const b = "42";
 
-a == b   true;
+a == b   true; // the variable b is being coered into a number value
 a === b  false;
 
 // WHEN TO USE == AND ===
