@@ -1,4 +1,4 @@
-// P.4 //////////////////////////////////////////////////////////////////////
+// P.4
 // EXECUTING A PROGRAM //////////////////////////////////////////////////////
 
 // There is a difference between INTERPRETING CODE and COMPILING CODE
@@ -7,7 +7,7 @@
 
 
 
-// P.11 //////////////////////////////////////////////////////////////////////
+// P.11-12
 // CONVERTING BETWEEN TYPES //////////////////////////////////////////////////
 
 // IMPLICIT coercion vs EXPLICIT coercion
@@ -20,8 +20,50 @@
 
 
 
+// P.11-12
+// COMMENTING CODE /////////////////////////////////////////////////////////////
 
-// P.26 //////////////////////////////////////////////////////////////////////
+// Code without comments is suboptimal
+// Too many comments is probably a sign of poorly written code.
+// Comments should explain WHY, not WHAT. They can optionally explain HOW us what's written is particularly confusing.
+
+
+
+
+// P.15
+// VARIABLES //////////////////////////////////////////////////////////////////
+
+// JS uses DYNAMIC TYPING, meaning variables can hold values of any type without any type enforcement.
+// The primary purpose of variables is to MANAGE PROGRAM STATE.
+// STATE is tracking the changes to values as your program runs.
+
+
+
+
+// P.22
+// LOOPS //////////////////////////////////////////////////////////////////////
+
+for (let i = 0; i < array.length; i++) {
+  array[i]
+}
+
+let i = 0; // Initialization clause
+i < array.length: // conditional test clause
+i++ // update clause
+
+
+
+
+// P.24
+// SCOPE //////////////////////////////////////////////////////////////////////
+
+// If one scope is nested inside another, code inside the innermost scope can access variables from either scope.
+// Lexcial scope rules sary that code in one scope can access variables of either that scope or any scope outside of it.
+
+
+
+
+// P.26
 // EXERCISES ////////////////////////////////////////////////////////////////
 
 const PHONE_PRICE = 87.45;
