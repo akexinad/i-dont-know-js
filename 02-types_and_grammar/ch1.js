@@ -21,3 +21,16 @@ Note: Many developers believe there should never be any variables in the global 
 
 */
 
+// UNDECLARED AND UNDEFINED.
+
+// Using the typeof function to check if global variale has been declared without running reference errors.
+
+// oops, this would throw an error!
+// if (DEBUG) {
+// 	console.log( "Debugging is starting" );
+// }
+
+// this is a safe existence check
+if (typeof DEBUG !== "undefined") {
+	console.log( "Debugging is starting" );
+}
