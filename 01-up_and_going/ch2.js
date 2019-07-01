@@ -228,4 +228,5 @@ var bar = Object.create( foo );
 bar.b = "WUNDERBAR!!!";
 
 console.log(bar);
+console.log(bar.name);
 console.log(bar.b);
